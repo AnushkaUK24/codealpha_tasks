@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    height: auto;
+    min-height: 100px;
+    margin: 100px auto;
+    background-color: #bfd1e5;
+    border: 1px solid #542344;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0.5em 0 #542344, 0 0 0.5em 0 #542344;
+}
+
+.base h3{
+    font-size: 26px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    color: #542344;
+}
+
+.block{
+    width: 130px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+title{
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.6px;
+    color: #542344;
+}
+
+input[type=text]{
+    width: 130px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #542344;
+    padding: 13px;
+    background-color: #bfd1e5;
+    border-radius: 5px;
+    color: #542344;
+    font-size: 16px;
+}
+
+input[type=button]{
+    width: 120px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #542344;
+    color: #fff;
+    border: 1px solid #542344;
+    padding: 0.25em 1em;
+    border-radius: 0.2em;
+    box-shadow: inset 0 0 0.5em 0 #542344, 0 0 0.5em 0 #542344;
+    margin-bottom: 30px;
+}
+
+input[type=button]:hover{
+    color: #ffff;
+    transition-property: box-shaddow;
+    transition-duration: 0.5s;
+    box-shadow: inset 0 0 0.5em 0 #542344, 0 0 0.5em 0 #542344;
+}
+
+#age{
+    padding: 20px;
+    overflow: hidden;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: #ffff;
+}
